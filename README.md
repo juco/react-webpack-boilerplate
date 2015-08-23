@@ -1,2 +1,2 @@
-# react-webpack-boilerplate
-Fiddling with React &amp; Webpack
+# React & Webpack boilerplate
+Fiddling with React & Webpack
