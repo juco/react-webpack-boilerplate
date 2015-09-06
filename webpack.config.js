@@ -18,7 +18,7 @@ module.exports = {
     modulesDirectories: ['node_modules', 'src']
   },
   output: {
-    path: path.join(__dirname, 'tmp'),
+    path: path.join(__dirname, 'dist'),
     publicPath: '',
     filename: '[name].js',
     library: ['Example', '[name]'],
@@ -43,7 +43,7 @@ module.exports = {
   debug: true,
   devtool: 'eval-cheap-module-source-map',
   devServer: {
-    contentBase: './tmp',
+    contentBase: './dist',
     historyApiFallback: true
   }
 };
